@@ -47,7 +47,7 @@
 
 <header>
   <Hero title={post.title} tags="JAVASCRIPT" />
-  <p>{post.printDate} ~ {post.printReadingTime}</p>
+  <p>Created on {post.creationDate}; Last updated on {post.updatedDate} ~ {post.printReadingTime}</p>
   <h1>{post.title}</h1>
   <hr />
 </header>

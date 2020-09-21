@@ -1,6 +1,7 @@
 ---
 title: Markdown Test Page
-date: 2019-06-16T12:51:00.000Z
+creationDate: "2019-06-11T08:38:00.000Z"
+updatedDate: "2020-06-11T08:38:00.000Z"
 ---
 
 A sample page with the most common elements of an article, including headings, paragraphs, lists, and images.
