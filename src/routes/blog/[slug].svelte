@@ -8,15 +8,18 @@
     if (res.status === 200) {
       return { post: data };
     } else {
-      this.error(res.status, data.message);
+      this.error(res.status, data.message); 
     }
   }
 </script>
 
 <script>
-  import Bio from '../../components/Bio.svelte'
+  // import Bio from '../../components/Bio.svelte'
   import Hero from "../../components/Hero.svelte";
-  export let post
+  export let post;
+  let tags = post.tags.split(",");
+  let lang = tags[0];
+  console.log(post.keywords);
 </script>
 
 <style>
@@ -29,7 +32,7 @@
   }
 
   header p {
-    color: #AAA;
+    color: #aaa;
     text-transform: uppercase;
     font-family: Rubik, sans-serif;
     font-weight: 600;
@@ -39,14 +42,18 @@
     min-width: 100px;
     width: 30%;
   }
+  span {
+    background-color: red;
+    padding: 0.25em 0.5em;
+    margin: 1em;
+  }
 </style>
-
 
 <svelte:head>
   <title>{post.title}</title>
   <link rel="canonical" href="https://blog.periodic-table.io/{post.slug}" />
   <meta name="description" content={post.excerpt} />
-  <!-- <meta name="keywords" content={post.keywords} /> -->
+  <meta name="keywords" content={post.keywords} />
 
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="blog" />
@@ -61,15 +68,14 @@
   <meta property="twitter:title" content={post.title} />
   <meta property="twitter:description" content={post.excerpt} />
   <meta property="twitter:image" content="https://blog.periodic-table.io/social/{post.slug}.png" />
-
-  <!-- {@html a11yDark} -->
-</svelte:head> 
+</svelte:head>
 
 <header>
-  <Hero title={post.title} tags="JAVASCRIPT" />
+  <Hero title={post.title} tag={lang} />
   <p>Created on {post.printDate}; Last updated on {post.updatedDate} ~ {post.printReadingTime}</p>
   <h1>{post.title}</h1>
-  {post.tag}
+
+  {#each tags as tag}<span>{tag}</span>{/each}
   <hr />
 </header>
 <div class="container">

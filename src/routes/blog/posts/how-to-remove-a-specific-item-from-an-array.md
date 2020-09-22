@@ -2,7 +2,8 @@
 title: How to remove a specific item from an array? (JAVASCRIPT)
 date: "2019-06-11T08:38:00.000Z"
 updateDate: "2020-06-11T08:38:00.000Z"
-tag: JAVASCRIPT
+tags: JAVASCRIPT,TAILWIND CSS
+keywords: javascript, array
 ---
 
     Since there is only a single return line, you can further simplify this as

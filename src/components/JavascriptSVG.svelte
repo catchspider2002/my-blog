@@ -167,7 +167,7 @@
     font-weight="700"
     letter-spacing=".723"
     fill="hsl({color})"
-    x="163.365"
+    x="163.365" 
     y="128.771">
     {lang}
   </text>
