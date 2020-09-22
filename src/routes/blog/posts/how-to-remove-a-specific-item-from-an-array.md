@@ -1,22 +1,23 @@
 ---
 title: How to remove a specific item from an array? (JAVASCRIPT)
 date: "2019-06-11T08:38:00.000Z"
-updatedDate: "2020-06-11T08:38:00.000Z"
+updateDate: "2020-06-11T08:38:00.000Z"
+tag: JAVASCRIPT
 ---
 
     Since there is only a single return line, you can further simplify this as
 
  <!-- more -->
 
-```html
-<pre data-language="javascript" class="language-javascript"><code class="language-javascript" dir="ltr">const removeArrayValue = (array, value) =&gt;
-array.filter((item) =&gt; item !== value);</code></pre>
+```javascript
+const removeArrayValue = (array, value) =>
+array.filter((item) => item !== value);
 ```
 
 More check
 
-```html
-   <pre data-language="css" class="language-css"><code class="language-css" dir="ltr">pre[data-language] {
+```css
+   pre[data-language] {
      position: relative;
      padding: 1.5rem;
      background-color: #1a202c;

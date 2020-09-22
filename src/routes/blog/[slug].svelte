@@ -41,14 +41,35 @@
   }
 </style>
 
+
 <svelte:head>
   <title>{post.title}</title>
-</svelte:head>
+  <link rel="canonical" href="https://blog.periodic-table.io/{post.slug}" />
+  <meta name="description" content={post.excerpt} />
+  <!-- <meta name="keywords" content={post.keywords} /> -->
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="blog" />
+  <meta property="og:url" content="https://blog.periodic-table.io/{post.slug}" />
+  <meta property="og:title" content={post.title} />
+  <meta property="og:description" content={post.excerpt} />
+  <meta property="og:image" content="https://blog.periodic-table.io/social/{post.slug}.png" />
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:url" content="https://blog.periodic-table.io/{post.slug}" />
+  <meta property="twitter:title" content={post.title} />
+  <meta property="twitter:description" content={post.excerpt} />
+  <meta property="twitter:image" content="https://blog.periodic-table.io/social/{post.slug}.png" />
+
+  <!-- {@html a11yDark} -->
+</svelte:head> 
 
 <header>
   <Hero title={post.title} tags="JAVASCRIPT" />
-  <p>Created on {post.creationDate}; Last updated on {post.updatedDate} ~ {post.printReadingTime}</p>
+  <p>Created on {post.printDate}; Last updated on {post.updatedDate} ~ {post.printReadingTime}</p>
   <h1>{post.title}</h1>
+  {post.tag}
   <hr />
 </header>
 <div class="container">
@@ -56,5 +77,5 @@
     {@html post.html}
   </article>
   <hr />
-  <Bio />
+  <!-- <Bio /> -->
 </div>
