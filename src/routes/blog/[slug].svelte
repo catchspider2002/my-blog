@@ -8,7 +8,7 @@
     if (res.status === 200) {
       return { post: data };
     } else {
-      this.error(res.status, data.message); 
+      this.error(res.status, data.message);
     }
   }
 </script>
@@ -23,29 +23,22 @@
 </script>
 
 <style>
-  header {
-    text-align: center;
-  }
-
-  header h1 {
+  h1 {
     margin-bottom: 0.7em;
   }
 
-  header p {
+  p {
     color: #aaa;
-    text-transform: uppercase;
-    font-family: Rubik, sans-serif;
-    font-weight: 600;
+    /* text-transform: uppercase; */
+    /* font-weight: 600; */
   }
 
-  header hr {
-    min-width: 100px;
-    width: 30%;
-  }
   span {
     background-color: red;
     padding: 0.25em 0.5em;
-    margin: 1em;
+    margin-right: 1em;
+    font-weight: 600;
+    font-family: var(--alt-font);
   }
 </style>
 
@@ -72,16 +65,16 @@
 
 <header>
   <Hero title={post.title} tag={lang} />
-  <p>Created on {post.printDate}; Last updated on {post.updatedDate} ~ {post.printReadingTime}</p>
-  <h1>{post.title}</h1>
+  <div class="container">
+    <p>Created on {post.printDate}; Last updated on {post.updatedDate} ~ {post.printReadingTime}</p>
+    <h1>{post.title}</h1>
 
-  {#each tags as tag}<span>{tag}</span>{/each}
-  <hr />
+    {#each tags as tag}<span>{tag}</span>{/each}
+  </div>
 </header>
 <div class="container">
   <article class="content">
     {@html post.html}
   </article>
-  <hr />
   <!-- <Bio /> -->
 </div>
