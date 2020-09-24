@@ -29,11 +29,10 @@
 
   p {
     color: #aaa;
-    /* text-transform: uppercase; */
-    /* font-weight: 600; */
+    font-size: 0.8em;
   }
 
-  span {
+  .tag {
     background-color: red;
     padding: 0.25em 0.5em;
     margin-right: 1em;
@@ -66,10 +65,10 @@
 <header>
   <Hero title={post.title} tag={lang} />
   <section class="container">
-    <p>Created on {post.printDate}; Last updated on {post.updatedDate} ~ {post.printReadingTime}</p>
+    <p><span >Created on {post.printDate}; Last updated on {post.updatedDate}</span> • <span>{post.printReadingTime}</span></p>
     <h1>{post.title}</h1>
 
-    {#each tags as tag}<span>{tag}</span>{/each}
+    {#each tags as tag}<span class="tag">{tag}</span>{/each}
   </section>
 </header>
 <section class="container">
