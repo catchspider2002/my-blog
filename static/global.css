@@ -1,10 +1,9 @@
-
 :root {
   --font: "Inter", sans-serif;
   --alt-font: "Nunito", sans-serif;
 }
-  
-  *,
+
+*,
 ::after,
 ::before {
   box-sizing: border-box;
@@ -201,8 +200,8 @@ td {
 
 .container {
   margin: 0 auto;
-  max-width: 42em;
-  width: 100%;
+  max-width: 1368px;
+  padding: 0 2em;
 }
 
 .content h1 {
@@ -229,6 +228,9 @@ td {
   body {
     font-size: 18px;
   }
+  .container {
+    max-width: 1280px;
+  }
 }
 @media (max-width: 1280px) {
   .container {
@@ -238,6 +240,7 @@ td {
 @media (max-width: 1024px) {
   .container {
     max-width: 768px;
+    padding: 0 2em;
   }
 }
 @media (max-width: 768px) {

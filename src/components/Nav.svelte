@@ -16,7 +16,7 @@
   a {
     color: inherit;
     text-decoration: none;
-    padding: 10px 5px;
+    /* padding: 10px 5px; */
     display: block;
     position: relative;
     margin-left: 20px;

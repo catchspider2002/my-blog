@@ -65,16 +65,16 @@
 
 <header>
   <Hero title={post.title} tag={lang} />
-  <div class="container">
+  <section class="container">
     <p>Created on {post.printDate}; Last updated on {post.updatedDate} ~ {post.printReadingTime}</p>
     <h1>{post.title}</h1>
 
     {#each tags as tag}<span>{tag}</span>{/each}
-  </div>
+  </section>
 </header>
-<div class="container">
+<section class="container">
   <article class="content">
     {@html post.html}
   </article>
   <!-- <Bio /> -->
-</div>
+</section>
