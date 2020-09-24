@@ -7,16 +7,16 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   inkscape:export-ydpi="24"
-   inkscape:export-xdpi="24"
-   inkscape:export-filename="C:\Users\Naveen\Downloads\my-blog\static\favicon.png"
-   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
-   sodipodi:docname="coding-language.svg"
-   id="svg17"
-   version="1.1"
-   width="512"
+   height="512"
    viewBox="0 0 64 64"
-   height="512">
+   width="512"
+   version="1.1"
+   id="svg17"
+   sodipodi:docname="logo.svg"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   inkscape:export-filename="C:\Users\Naveen\Downloads\my-blog\static\logo-512.png"
+   inkscape:export-xdpi="100.72"
+   inkscape:export-ydpi="100.72">
   <metadata
      id="metadata23">
     <rdf:RDF>
@@ -32,55 +32,54 @@
   <defs
      id="defs21" />
   <sodipodi:namedview
-     inkscape:current-layer="g965"
-     inkscape:window-maximized="1"
-     inkscape:window-y="-9"
-     inkscape:window-x="-9"
-     inkscape:cy="272.11737"
-     inkscape:cx="227.57215"
-     inkscape:zoom="1.6572815"
-     showgrid="false"
-     id="namedview19"
-     inkscape:window-height="1361"
-     inkscape:window-width="2560"
-     inkscape:pageshadow="2"
-     inkscape:pageopacity="0"
-     guidetolerance="10"
-     gridtolerance="10"
-     objecttolerance="10"
-     borderopacity="1"
+     inkscape:document-rotation="0"
+     pagecolor="#1b1b1b"
      bordercolor="#666666"
-     pagecolor="#ffffff" />
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="2560"
+     inkscape:window-height="1361"
+     id="namedview19"
+     showgrid="false"
+     inkscape:zoom="1.171875"
+     inkscape:cx="243.5384"
+     inkscape:cy="356.04365"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g965" />
   <g
-     data-name="computer coding"
-     id="computer_coding">
+     id="computer_coding"
+     data-name="computer coding">
     <g
        id="g951">
       <g
-         transform="translate(0,3.4485836)"
-         id="g965">
-        <g
-           transform="translate(1,0.90276805)"
-           id="g989">
-          <path
-             id="path857-5"
-             d="M 34.137328,21.716163 27.862673,45.173198"
-             style="fill:none;fill-rule:evenodd;stroke:#e9d8fd;stroke-width:4;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-             sodipodi:nodetypes="cc" />
-          <path
-             d="m 38.913577,25.248113 6.290753,6.276625 c 1.072725,1.070316 1.060555,2.78163 -0.01216,3.85196 l -6.278516,6.26455"
-             style="color:#000000;overflow:visible;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#e9d8fd;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill;stop-color:#000000"
-             id="path892-5" />
-          <path
-             id="path892"
-             style="color:#000000;overflow:visible;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#e9d8fd;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill;stop-color:#000000"
-             d="M 23.086423,41.641246 16.79567,35.364621 c -1.072725,-1.070314 -1.060555,-2.781628 0.01216,-3.851958 l 6.278517,-6.264549" />
-          <path
-             id="rect855"
-             style="color:#000000;overflow:visible;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#e9d8fd;stroke-width:4;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill;stop-color:#000000"
-             d="M 6.3947368,3.0169887 H 55.605263 c 1.603684,0 2.894737,1.293251 2.894737,2.8996533 v 43.46395 c 0,1.606403 -1.291053,2.89972 -2.894737,2.899716 L 6.3947368,52.280235 C 4.7910526,52.280232 3.5,50.986995 3.5,49.380592 V 5.9166317 c 0,-1.6064023 1.2910526,-2.899643 2.8947368,-2.899643 z M 3.5,14.572807 l 55,-4.4e-5"
-             sodipodi:nodetypes="ssssccssscc" />
-        </g>
+         id="g965"
+         transform="translate(0,3.4485836)">
+        <path
+           id="path857-5"
+           d="M 35.017636,24.05224 28.982364,46.550592"
+           style="fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:6;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           sodipodi:nodetypes="cc" />
+        <path
+           d="m 44.01629,27.43984 6.050756,6.020101 c 1.031799,1.026572 1.020094,2.667946 -0.0117,3.694531 l -6.038985,6.00852"
+           style="color:#000000;overflow:visible;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill;stop-color:#000000"
+           id="path892-5" />
+        <path
+           id="path892"
+           style="color:#000000;overflow:visible;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill;stop-color:#000000"
+           d="m 19.983709,43.16299 -6.050755,-6.020101 c -1.0318,-1.026571 -1.020094,-2.667944 0.0117,-3.69453 L 19.98364,27.43984" />
+        <path
+           inkscape:export-ydpi="25.180325"
+           inkscape:export-xdpi="25.180325"
+           id="rect855"
+           style="color:#000000;overflow:visible;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:6.00001;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill;stop-color:#000000"
+           d="M 7.3947368,1.0514172 H 56.605263 c 1.603684,0 2.894737,1.443849 2.894737,3.2373157 V 52.81403 c 0,1.793467 -1.291053,3.23739 -2.894737,3.237386 L 7.3947368,56.051334 C 5.7910526,56.051331 4.5,54.607497 4.5,52.81403 V 4.2887214 C 4.5,2.4952547 5.7910526,1.0514172 7.3947368,1.0514172 Z M 4.5,14.551441 l 55,-4.9e-5"
+           sodipodi:nodetypes="ssssccssscc" />
       </g>
     </g>
   </g>
